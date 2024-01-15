@@ -1,4 +1,4 @@
-'import { S3 } from 'aws-sdk';
+import { S3 } from 'aws-sdk';
 import { APIGatewayProxyHandler } from 'aws-lambda';
 
 const s3 = new S3();
@@ -27,4 +27,3 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     };
   }
 };
-'
